@@ -1,5 +1,5 @@
 # Site settings
-title: Jens Norgaard
+title: J Norgaard
 email: your-email@domain.com
 url: http://me5.jnorgaard.com
 description: "Lorem ipsizzle dolor sizzle black, pimpin' adipiscing elit. Nullam sapizzle sheezy, ma nizzle volutpizzle, ma nizzle quizzle, i'm in the shizzle vel, fizzle. Pellentesque for sure tortizzle. Sed erizzle. Fo shizzle pimpin' dolizzle dapibus turpis tempizzle yo mamma. Mauris pellentesque pimpin' izzle turpizzle. Vestibulum izzle tortizzle. Pellentesque things rhoncizzle gizzle. In mah nizzle fo shizzle platea dictumst. Donec dapibus"
@@ -10,12 +10,12 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Curabitizzle tellizzle gizzle
+footer: Jens Nørgaard
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/sharepointdk
 #  - title: facebook
 #    url:
 #  - title: stack-overflow
