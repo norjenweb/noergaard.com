@@ -2,10 +2,12 @@
  * Custom styles for contact form 
  * Norjen
  */
-
+ 
+/*!
 * {
     box-sizing: border-box;
 }
+ */
 
 input[type=text], select, textarea{
     width: 100%;
