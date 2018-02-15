@@ -3,11 +3,9 @@
  * Norjen
  */
 
-/*!
 * {
     box-sizing: border-box;
 }
- */
 
 input[type=text], select, textarea{
     width: 100%;
@@ -23,6 +21,10 @@ label {
     display: inline-block;
 }
 
+input[type=submit] {
+    width: 100%;
+    cursor: pointer;
+}
 /*!
 input[type=submit] {
     background-color: #4CAF50;
@@ -33,13 +35,11 @@ input[type=submit] {
     cursor: pointer;
     float: right;
 }
- */
 
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/*!
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
