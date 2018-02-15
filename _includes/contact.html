@@ -4,26 +4,30 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
                 <p>
-                    Get in touch with Jens Nørgaard using the below form<br> or connect using social networks.
+                    Get in touch with Jens Nørgaard using the form below<br> or connect using social networks.
                 </p>
- 
-                    <form name="contact" netlify>
-                    <p>
-                      <label>Your Name: <input type="text" name="name"></label>   
-                    </p>
-                    <p>
-                      <label>Your Email: <input type="email" name="email"></label>
-                    </p>
-                    <p>
-                      <label>Subject: <input type="text" name="subject"></label>
-                    </p>
-                    <p>
-                      <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
-                  </form>
+                <form name="contact" netlify></form>
+                <table style="width:100%">
+                <tr>
+                    <td><button type="submit">Send</button></td>
+                </tr>
+                <tr>
+                    <td><label>Your Name: <input type="text" name="name"></label>  </td>
+                </tr>
+                <tr>
+                    <td><label>Your Email: <input type="email" name="email"></label></td>
+                </tr>
+                <tr>
+                    <td><label>Subject: <input type="text" name="subject"></label></td>
+                </tr>
+                <tr>
+                    <td><label>Message: <textarea name="message"></textarea></label></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Send</button></td>
+                </tr>
+                </table> 
+                </form>
                 
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
