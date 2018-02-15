@@ -22,7 +22,6 @@ label {
 }
 
 input[type=submit] {
-    width: 75%;
     cursor: pointer;
     float: right;
 }
