@@ -24,7 +24,7 @@ label {
 
 input[type=submit] {
     cursor: pointer;
-    float: right;
+ /*!   float: right; */
 }
 /*!
 input[type=submit] {
@@ -45,7 +45,7 @@ input[type=submit]:hover {
 .formcontainer {
     border-radius: 5px;
     padding: 20px;
-    width:1170px
+    width:750px
 }
 
 .col-25 {
