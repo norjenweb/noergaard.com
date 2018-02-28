@@ -7,7 +7,10 @@
                     Get in touch with Jens Nørgaard using the form below<br> or connect using social networks.
                 </p>
                 <div class="formcontainer">
-                    <form  name="contact" netlify>
+                    <form  name="contact" netlify-honeypot="compute-field" netlify>
+                        <p class="hidden">
+                            <label>Compute field <input name="compute-field"></label>
+                          </p>
                       <div class="row">
                         <div class="col-25">
                           <label for="fname">Your Name</label>
